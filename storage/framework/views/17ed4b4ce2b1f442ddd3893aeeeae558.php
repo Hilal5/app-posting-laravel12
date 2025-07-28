@@ -1,0 +1,1 @@
+<?php /**PATH C:\laragon\www\app-postingan\resources\views\home.blade.php ENDPATH**/ ?>
