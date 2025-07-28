@@ -4,13 +4,23 @@ Aplikasi ini adalah proyek web sederhana menggunakan Laravel 12 yang memungkinka
 
 ---
 
-## 📸 Screenshots
+## 🖼️ Screenshots
 
-### 🏠 Beranda (Daftar Postingan)
+### 🏠 Halaman Utama (Daftar Postingan)
 ![Screenshot 1](screenshots/ss-1.png)
 
-### ❤️ Efek Like dengan Suara
+### 🔍 Detail Postingan
 ![Screenshot 2](screenshots/ss-2.png)
+
+### 🔻 Bagian Bawah
+![Screenshot 3](screenshots/ss-3.png)
+
+### 📝 Formulir Buat Postingan
+![Screenshot 4](screenshots/ss-4.png)
+
+### ✨ Postingan Baru Setelah Ditambahkan
+![Screenshot 5](screenshots/ss-5.png)
+
 
 ---
 
@@ -18,7 +28,6 @@ Aplikasi ini adalah proyek web sederhana menggunakan Laravel 12 yang memungkinka
 
 - ✍️ Buat postingan baru
 - 📃 Lihat daftar semua postingan
-- 🗑️ Hapus postingan
 - ❤️ Like postingan (dengan animasi dan suara)
 - 📁 Upload gambar untuk setiap postingan
 - 🔒 Proteksi CSRF pada setiap request
@@ -34,7 +43,7 @@ Aplikasi ini adalah proyek web sederhana menggunakan Laravel 12 yang memungkinka
 | Laragon        | Terbaru (2024)   |
 | Tailwind CSS   | CDN              |
 | Filepond       | Untuk upload gambar |
-| MySQL/MariaDB  | via Laragon      |
+| MySQL          | via Laragon      |
 | JavaScript     | Native (vanilla) |
 
 ---
@@ -46,3 +55,10 @@ Aplikasi ini adalah proyek web sederhana menggunakan Laravel 12 yang memungkinka
 ```bash
 git clone https://github.com/username/nama-repo.git
 cd nama-repo
+composer install
+npm install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+composer run dev
+
