@@ -53,8 +53,8 @@ Aplikasi ini adalah proyek web sederhana menggunakan Laravel 12 yang memungkinka
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/username/nama-repo.git
-cd nama-repo
+git clone https://github.com/Hilal5/app-posting-laravel12
+cd app-posting-laravel12
 composer install
 npm install
 cp .env.example .env
