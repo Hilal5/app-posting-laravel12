@@ -40,7 +40,7 @@ Aplikasi ini adalah proyek web sederhana menggunakan Laravel 12 yang memungkinka
 |----------------|------------------|
 | Laravel        | 12.x             |
 | PHP            | 8.2+             |
-| Laragon        | Terbaru (2024)   |
+| Laragon        | Terbaru          |
 | Tailwind CSS   | CDN              |
 | Filepond       | Untuk upload gambar |
 | MySQL          | via Laragon      |
