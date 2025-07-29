@@ -1,6 +1,6 @@
 # 📝 Aplikasi Postingan Sederhana - Laravel 12
 
-Aplikasi ini adalah proyek web sederhana menggunakan Laravel 12 yang memungkinkan pengguna untuk membuat, menyukai, dan melihat postingan. Dibuat menggunakan **Laragon versi terbaru** dan **PHP 8.2+**, aplikasi ini cocok sebagai pembelajaran dasar Laravel MVC, fitur CRUD, dan efek interaktif menggunakan JavaScript.
+Aplikasi ini adalah proyek web sederhana menggunakan Laravel 12 yang memungkinkan pengguna untuk membuat, menyukai, komen, dan melihat postingan. Dibuat menggunakan **Laragon versi terbaru** dan **PHP 8.2+**, aplikasi ini cocok sebagai pembelajaran dasar Laravel MVC, fitur CRUD, dan efek interaktif menggunakan JavaScript.
 
 ---
 
